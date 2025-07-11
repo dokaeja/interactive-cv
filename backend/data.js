@@ -1,45 +1,51 @@
-// backend/data.js
 
 const educationHistory = [
   {
     id: 1,
-    period: '2022 - Sekarang',
-    institution: 'Universitas Gadjah Mada',
+    period: '2023 - Sekarang',
+    institution: 'Universitas AMIKOM Yogyakarta',
     major: 'S1 - Teknik Informatika'
   },
   {
     id: 2,
     period: '2019 - 2022',
-    institution: 'SMA Negeri 1 Teladan Yogyakarta',
+    institution: 'SMA Negeri 13 Kota Tangerang',
     major: 'MIPA'
   }
 ];
 
 const skills = [
-  { name: 'Vue.js', level: 'Mahir' },
-  { name: 'JavaScript', level: 'Mahir' },
+  { name: 'Vue.js', level: 'Menengah' },
+  { name: 'JavaScript', level: 'Menengah' },
   { name: 'Tailwind CSS', level: 'Mahir' },
   { name: 'Node.js', level: 'Menengah' },
   { name: 'Express.js', level: 'Menengah' },
-  { name: 'PostgreSQL', level: 'Menengah' },
-  { name: 'Git & GitHub', level: 'Mahir' },
+  { name: 'PostgreSQL', level: 'Pemula' },
+  { name: 'Git & GitHub', level: 'Menengah' },
   { name: 'HTML5 & CSS3', level: 'Mahir' }
 ];
 
 const projects = [
   {
-    title: 'Website Toko Online',
-    image: 'https://via.placeholder.com/500x300?text=Proyek+1',
-    description: 'Platform e-commerce dengan fitur keranjang belanja.',
-    tech: ['Vue.js', 'Express.js', 'PostgreSQL'],
-    link: '#'
+    title: 'Sistem Manajemen Buku',
+    image: '/images/Screenshot 1.png',
+    description: 'Sebuah sistem untuk mengelola koleksi buku di perpustakaan.',
+    tech: ['C++'],
+    link: 'https://github.com/dokaeja/Sistem-Management-Buku.git'
   },
   {
-    title: 'Aplikasi Manajemen Tugas',
-    image: 'https://via.placeholder.com/500x300?text=Proyek+2',
-    description: 'Aplikasi untuk melacak progres tugas harian.',
-    tech: ['React', 'Firebase'],
-    link: '#'
+    title: 'ReadLine',
+    image: '/images/Screenshot 1(1).png',
+    description: 'Aplikasi untuk mentracking dan mengelola bacaan buku.',
+    tech: ['Figma'],
+    link: 'https://github.com/dokaeja/ReadLine.git'
+  },
+  {
+    title: 'Mahaparfume',
+    image: '/images/Screenshot 1(2).png',
+    description: 'Pengembangan website e-commerce yang berfokus pada penjualan parfum, memungkinkan pengguna untuk menjelajahi produk, menambahkan ke keranjang, dan melakukan transaksi dengan mudah.',
+    tech: ['javascript', 'Node.js', 'Express.js'],
+    link: 'https://github.com/wakabi09/parfumeeeeee.git'
   }
 ];
 
