@@ -15,7 +15,7 @@ const closeMenu = () => {
 <template>
   <header class="bg-white shadow-lg sticky top-0 z-50 animate-fade-in">
     <nav class="container mx-auto px-6 py-4 flex justify-between items-center relative">
-      <div class="text-2xl font-extrabold text-blue-900">Agustina Septofanny</div> <div class="md:hidden">
+      <div class="text-2xl font-extrabold text-blue-900">My Portfolio</div> <div class="md:hidden">
         <button @click="toggleMenu" class="text-gray-700 hover:text-cyan-500 focus:outline-none focus:text-cyan-500"> <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path v-if="!isMenuOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-4 6h4" />
             <path v-else stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />

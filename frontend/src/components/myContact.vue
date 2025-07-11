@@ -60,7 +60,7 @@ import SectionTitle from './SectionTitle.vue';
       </div>
 
       <p class="text-gray-500 text-sm mt-8">
-        &copy; {{ new Date().getFullYear() }} Nama Mahasiswa.
+        &copy; {{ new Date().getFullYear() }} Agustina.
         Dibuat dengan ❤
       </p>
     </div>

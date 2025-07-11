@@ -44,7 +44,7 @@ const projects = [
     title: 'Mahaparfume',
     image: '/images/Screenshot 1(2).png',
     description: 'Pengembangan website e-commerce yang berfokus pada penjualan parfum, memungkinkan pengguna untuk menjelajahi produk, menambahkan ke keranjang, dan melakukan transaksi dengan mudah.',
-    tech: ['javascript', 'Node.js', 'Express.js'],
+    tech: ['React.js', 'Boostrap', 'MongoDB', 'Express.js'],
     link: 'https://github.com/wakabi09/parfumeeeeee.git'
   }
 ];
